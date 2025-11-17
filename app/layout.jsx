@@ -4,8 +4,7 @@ import Footer from "../components/Footer";
 import { AuthProvider } from "./context/Authcontext";
 
 export const metadata = {
-  title: "Staff Profile System",
-  description: "Staff management with QR codes",
+  title: "Staff Profile System"
 };
 
 export default function RootLayout({ children }) {
