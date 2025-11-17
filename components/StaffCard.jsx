@@ -9,7 +9,7 @@ export default function StaffCard({ staff }) {
           <img
             src={staff.photo?.url || "/placeholder.png"}
             alt={staff.fullName || `${staff.firstName} ${staff.lastName}`}
-            className="w-full h-40 object-cover"
+            className="w-50 h-50 rounded-lg mx-auto object-cover"
           />
         </div>
       </Link>
